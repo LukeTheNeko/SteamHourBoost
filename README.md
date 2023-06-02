@@ -1,6 +1,6 @@
 
 <h2>Introduction</h2>
-A simple JavaScript program that simulates that your games are open in your account. With that, you will receive hours in your games registered in config.json.
+A simple JavaScript program that simulates that your games are open in your account. With that, you will farm hours in your games registered in config.json.
 
 <h2>Features</h2>
 Custom In-Game Title
