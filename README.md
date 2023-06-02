@@ -7,7 +7,7 @@ A simple JavaScript program that simulates that your games are open in your acco
 - Custom In-Game Title 
 
 ## Getting started
-- Install latest version of NodeJS from official website.
+- Install latest version of NodeJS from official <a href="https://nodejs.org/en">website</a>.
 - Open `install.bat` and wait until it installs all required modules.
 - Open the `config.json` and fill all required fields.
 - Then just run `node index.js` or open `start.bat` to launch the script.
