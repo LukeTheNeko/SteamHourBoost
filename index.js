@@ -43,3 +43,16 @@ function keepGamesRunning() {
 }
 
 setInterval(keepGamesRunning, 60000);
+
+const startTime = new Date();
+
+setInterval(() => {
+  const currentTime = new Date();
+  const elapsedTime = currentTime - startTime;
+
+  const hours = Math.floor(elapsedTime / (1000 * 60 * 60));
+  const minutes = Math.floor((elapsedTime % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((elapsedTime % (1000 * 60)) / 1000);
+
+  process.stdout.write(`Elapsed time ${hours.toString().padStart(2, '0')}h ${minutes.toString().padStart(2, '0')}m ${seconds.toString().padStart(2, '0')}s \r`);
+}, 1000);
