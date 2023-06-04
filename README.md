@@ -1,5 +1,5 @@
 ## Introduction
-A simple JavaScript program that simulates that your games are open in your account. With that, you will receive hours in your games registered in config.json.
+A simple JavaScript program that simulates that your games are open in your account. With that, you will farm hours in your games registered in config.json.
 
 ## Features
 - Unlimited Accounts support
