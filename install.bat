@@ -2,7 +2,7 @@
 chcp 65001 > nul
 
 color 0D
-title GameHourBoost by LKzinxYz
+title GameHourBoost
 
 mode con: cols=75 lines=11
 
