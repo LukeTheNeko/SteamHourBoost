@@ -10,7 +10,7 @@
         "username": "username2",
         "password": "password2",
         "sharedSecret": "sharedSecret2",
-        "games": [730]
+        "games": [730, 440, 110]
       }
     ]
   }
