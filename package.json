@@ -13,6 +13,6 @@
     "fs": "^0.0.2",
     "steam-totp": "^2.1.2",
     "steam-user": "^4.29.3",
-    "steamcommunity": "^3.47.1"
+    "steamcommunity": "^3.48.0"
   }
 }
