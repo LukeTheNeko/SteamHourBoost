@@ -26,25 +26,21 @@
 <pre>
 <code>
 {
-  "accounts": [
-    {
-      "username": "your_username",
-      "password": "your_password",
-      "games": [
-        {
-          "name": "Game1",
-          "customTitle": "Custom Title 1"
-        },
-        {
-          "name": "Game2",
-          "customTitle": "Custom Title 2"
-        },
-        // Add more games as needed
-      ]
-    },
-    // Add more accounts as needed
-  ]
-}
+    "accounts": [
+      {
+        "username": "username1",
+        "password": "password1",
+        "sharedSecret": "sharedSecret1",
+        "games": [730, 440, 110]
+      },
+      {
+        "username": "username2",
+        "password": "password2",
+        "sharedSecret": "sharedSecret2",
+        "games": [730, 440, 110]
+      }
+    ]
+  }
 </code>
 </pre>
 
