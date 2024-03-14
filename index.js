@@ -1,6 +1,6 @@
-const fs = require('fs');
 const SteamUser = require('steam-user');
 const SteamTotp = require('steam-totp');
+const fs = require('fs');
 
 let config = {};
 

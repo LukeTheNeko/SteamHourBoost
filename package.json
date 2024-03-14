@@ -1,14 +1,22 @@
 {
   "name": "hourboost",
-  "version": "1.2.1",
+  "author": "LukeTheNeko",
+  "version": "1.2.2",
   "description": "",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "LukeTheNeko",
-  "license": "ISC",
+  "keywords": [
+    "node",
+    "javascript",
+    "steam",
+    "bot",
+    "farm",
+    "hour",
+    "boost"
+],
   "dependencies": {
     "fs": "^0.0.2",
     "steam-totp": "^2.1.2",
