@@ -14,7 +14,7 @@
 
 <h2>Getting Started</h2>
 <ol>
-  <li>Install the latest version of NodeJS from the <a href="https://nodejs.org/en">official website</a>.</li>
+  <li>Install the LTS version of NodeJS from the <a href="https://nodejs.org/en">official website</a>.</li>
   <li>Run <code>install.bat</code> and wait until it installs all required modules.</li>
   <li>Open the <code>config.json</code> file and fill in all the required fields.</li>
   <li>Run the script by executing <code>node index.js</code> or use <code>start.bat</code> to launch the script.</li>
