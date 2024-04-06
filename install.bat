@@ -2,7 +2,7 @@
 chcp 65001 > nul
 
 color 0D
-title GameHourBoost v1.2.0 by LukeTheNeko
+title GameHourBoost v1.2.3 by LukeTheNeko
 
 mode con: cols=75 lines=11
 

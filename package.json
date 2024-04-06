@@ -1,8 +1,8 @@
 {
-  "name": "hourboost",
+  "name": "steamhourboost",
   "author": "LukeTheNeko",
-  "version": "1.2.2",
-  "description": "",
+  "version": "1.2.3",
+  "description": "steam boost game hours",
   "main": "index.js",
   "license": "MIT",
   "scripts": {

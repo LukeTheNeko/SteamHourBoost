@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./docs/imgs/GameHourBoost.png" alt="" height="65">
+  <img src="./docs/imgs/SteamHourBoost.png" alt="" height="65">
 </div>
 
 <h2>Introduction</h2>
@@ -45,4 +45,4 @@
 </pre>
 
 <h2>License</h2>
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+<p>This project is licensed under the <a href="./LICENSE">MIT License</a>.</p>
