@@ -1,8 +1,8 @@
 {
   "name": "steamhourboost",
   "author": "LukeTheNeko",
-  "version": "1.2.3",
-  "description": "steam boost game hours",
+  "version": "1.2.4",
+  "description": "steam game boost hours",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -20,7 +20,7 @@
   "dependencies": {
     "fs": "^0.0.2",
     "steam-totp": "^2.1.2",
-    "steam-user": "^5.0.7",
+    "steam-user": "^5.0.8",
     "steamcommunity": "^3.48.2"
   }
 }
