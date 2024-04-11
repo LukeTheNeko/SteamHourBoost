@@ -1,18 +1,35 @@
 {
-  "name": "hourboost",
-  "version": "1.2.1",
-  "description": "",
-  "main": "index.js",
+  "name": "steamhourboost",
+  "version": "2.0.0",
+  "description": "Steam hour boost",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "dev": "ts-node -r tsconfig-paths/register --transpiler sucrase/ts-node-plugin src/index.ts",
+    "build": "tsc && tscpaths -p tsconfig.json -s ./src -o ./dist"
   },
-  "keywords": [],
+  "keywords": [
+    "steam",
+    "hour",
+    "boost"
+  ],
   "author": "LukeTheNeko",
-  "license": "ISC",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/steam-totp": "^2.1.2",
+    "@types/steam-user": "^5.0.0",
+    "sucrase": "^3.35.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "tscpaths": "^0.0.9",
+    "typescript": "^5.4.5"
+  },
   "dependencies": {
-    "fs": "^0.0.2",
+    "fs": "^0.0.1-security",
     "steam-totp": "^2.1.2",
-    "steam-user": "^5.0.7",
-    "steamcommunity": "^3.48.2"
+    "steam-user": "^5.0.9",
+    "steamcommunity": "^3.48.2",
+    "tslib": "^2.6.2"
   }
 }

@@ -31,13 +31,13 @@
         "username": "username1",
         "password": "password1",
         "sharedSecret": "sharedSecret1",
-        "games": [730, 440, 110]
+        "games": [ 730, 440, 110 ]
       },
       {
         "username": "username2",
         "password": "password2",
         "sharedSecret": "sharedSecret2",
-        "games": [730, 440, 110]
+        "games": [ 730, 440, 110 ]
       }
     ]
   }
