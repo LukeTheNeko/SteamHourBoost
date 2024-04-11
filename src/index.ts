@@ -15,7 +15,7 @@ interface Config {
 let config: Config = { accounts: [] };
 
 try {
-  config = require('../config.dev.json');
+  config = require('../config.json');
 } catch (error) {
   console.error('Error reading the configuration file:', error);
   process.exit(1);
