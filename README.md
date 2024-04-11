@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./docs/imgs/GameHourBoost.png" alt="" height="65">
+  <img src="./docs/imgs/SteamHourBoost.png" alt="" height="75">
 </div>
 
 <h2>Introduction</h2>
@@ -9,18 +9,16 @@
 <ul>
   <li>Unlimited Accounts support</li>
   <li>Up to 32 Games per account</li>
-  <li>Custom In-Game Title</li>
 </ul>
 
 <h2>Getting Started</h2>
 <ol>
-  <li>Install the latest version of NodeJS from the <a href="https://nodejs.org/en">official website</a>.</li>
-  <li>Run <code>install.bat</code> and wait until it installs all required modules.</li>
+  <li>Install the LTS version of NodeJS from the <a href="https://nodejs.org/en">official website</a>.</li>
+  <li>Install using <code>npm install</code> and wait until it installs all required modules.</li>
   <li>Open the <code>config.json</code> file and fill in all the required fields.</li>
-  <li>Run the script by executing <code>node index.js</code> or use <code>start.bat</code> to launch the script.</li>
+  <li>To start the script, use: <code>npm run dev</code> Starts the project in development mode</li>
+  <li>To compile the project, use: <code>npm run build</code> Builds the project</li>
 </ol>
-
-<p>Feel free to customize the <code>config.json</code> to suit your preferences.</p>
 
 <h2>Configuration (config.json)</h2>
 <pre>
