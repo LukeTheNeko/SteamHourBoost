@@ -6,6 +6,7 @@ interface Account {
   password: string;
   sharedSecret: string;
   games: number[];
+  status: 'Online' | 'Away' | 'Invisible' | 'Offline';
 }
 
 interface Config {
@@ -34,9 +35,9 @@ function login(account: Account): void {
 
   steamUser.on('loggedOn', () => {
     console.log(`🟢 Logged in to Steam account: ${account.username}`);
-    steamUser.setPersona(SteamUser.EPersonaState.Online);
+    steamUser.setPersona(SteamUser.EPersonaState[account.status]);
     account.games.forEach((gameAppId) => {
-      console.log(`🕹️ Launching game with appid ${gameAppId}`);
+      console.log(`🕹️ Launching game with appid ${gameAppId} `);
       steamUser.gamesPlayed([gameAppId]);
     });
   });
@@ -45,24 +46,3 @@ function login(account: Account): void {
 }
 
 config.accounts.forEach(login);
-
-function keepGamesRunning(): void {
-  steamUsers.forEach((steamUser) => {
-    steamUser.gamesPlayed(config.accounts.flatMap((account) => account.games));
-  });
-}
-
-setInterval(keepGamesRunning, 60000);
-
-const startTime = new Date();
-
-setInterval(() => {
-  const currentTime = new Date();
-  const elapsedTime = currentTime.getTime() - startTime.getTime();
-
-  const hours = Math.floor(elapsedTime / (1000 * 60 * 60));
-  const minutes = Math.floor((elapsedTime % (1000 * 60 * 60)) / (1000 * 60));
-  const seconds = Math.floor((elapsedTime % (1000 * 60)) / 1000);
-
-  process.stdout.write(`🕞 Elapsed time ${hours.toString().padStart(2, '0')}h ${minutes.toString().padStart(2, '0')}m ${seconds.toString().padStart(2, '0')}s \r`);
-}, 1000);

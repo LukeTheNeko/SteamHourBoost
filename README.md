@@ -9,6 +9,7 @@
 <ul>
   <li>Unlimited Accounts support</li>
   <li>Up to 32 Games per account</li>
+  <li>You can choose the status between Online, Away, Invisible and Offline</li>
 </ul>
 
 <h2>Getting Started</h2>
@@ -29,13 +30,15 @@
         "username": "username1",
         "password": "password1",
         "sharedSecret": "sharedSecret1",
-        "games": [ 730, 440, 110 ]
+        "games": [ 730, 440, 570 ]
+        "status": "Invisible"
       },
       {
         "username": "username2",
         "password": "password2",
         "sharedSecret": "sharedSecret2",
-        "games": [ 730, 440, 110 ]
+        "games": [ 730, 440, 570 ]
+        "status": "Online"
       }
     ]
   }
