@@ -30,14 +30,14 @@
         "username": "username1",
         "password": "password1",
         "sharedSecret": "sharedSecret1",
-        "games": [ 730, 440, 570 ]
+        "games": [[ 730, 440, 570 ]]
         "status": "Invisible"
       },
       {
         "username": "username2",
         "password": "password2",
         "sharedSecret": "sharedSecret2",
-        "games": [ 730, 440, 570 ]
+        "games": [[ 730, 440, 570 ]]
         "status": "Online"
       }
     ]

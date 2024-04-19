@@ -16,7 +16,7 @@ interface Config {
 let config: Config = { accounts: [] };
 
 try {
-  config = require('../config.json');
+  config = require('../config.dev.json');
 } catch (error) {
   console.error('Error reading the configuration file:', error);
   process.exit(1);
@@ -36,10 +36,20 @@ function login(account: Account): void {
   steamUser.on('loggedOn', () => {
     console.log(`🟢 Logged in to Steam account: ${account.username}`);
     steamUser.setPersona(SteamUser.EPersonaState[account.status]);
-    account.games.forEach((gameAppId) => {
-      console.log(`🕹️ Launching game with appid ${gameAppId} `);
+
+    function playGamesWithDelay(games: number[], index: number) {
+      if (index >= games.length) return;
+
+      const gameAppId = games[index];
+      console.log(`🕹️ Launching game with appid ${gameAppId} for account ${account.username}`);
       steamUser.gamesPlayed([gameAppId]);
-    });
+
+      setTimeout(() => {
+        playGamesWithDelay(games, index + 1);
+      }, 700);
+    }
+
+    playGamesWithDelay(account.games, 0);
   });
 
   steamUsers.push(steamUser);
