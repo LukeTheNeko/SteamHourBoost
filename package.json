@@ -1,6 +1,6 @@
 {
   "name": "steamhourboost",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Steam hour boost",
   "main": "dist/index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/steam-totp": "^2.1.2",
+    "@types/steam-tradeoffer-manager": "^2.11.0",
     "@types/steam-user": "^5.0.0",
     "sucrase": "^3.35.0",
     "ts-node": "^10.9.2",
@@ -26,9 +27,13 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@types/steamcommunity": "^3.43.7",
+    "axios": "^1.6.8",
     "fs": "^0.0.1-security",
     "steam-totp": "^2.1.2",
+    "steam-tradeoffer-manager": "^2.11.4",
     "steam-user": "^5.0.9",
+    "steamcommunity": "^3.48.3",
     "tslib": "^2.6.2"
   }
 }

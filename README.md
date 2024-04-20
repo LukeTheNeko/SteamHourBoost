@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./docs/imgs/SteamHourBoost.png" alt="" height="75">
+  <img src="./docs/imgs/SteamHourBoost.png" height="75">
 </div>
 
 <h2>Introduction</h2>
@@ -30,14 +30,14 @@
         "username": "username1",
         "password": "password1",
         "sharedSecret": "sharedSecret1",
-        "games": [[ 730, 440, 570 ]]
+        "games": [ 730, 440, 570 ]
         "status": "Invisible"
       },
       {
         "username": "username2",
         "password": "password2",
         "sharedSecret": "sharedSecret2",
-        "games": [[ 730, 440, 570 ]]
+        "games": [ 730, 440, 570 ]
         "status": "Online"
       }
     ]
