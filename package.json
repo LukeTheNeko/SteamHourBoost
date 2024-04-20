@@ -1,6 +1,6 @@
 {
   "name": "steamhourboost",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Steam hour boost",
   "main": "dist/index.js",
   "scripts": {
