@@ -29,7 +29,7 @@
   "dependencies": {
     "@types/steamcommunity": "^3.43.7",
     "axios": "^1.6.8",
-    "fs": "^0.0.1-security",
+    "fs": "^0.0.2",
     "steam-totp": "^2.1.2",
     "steam-tradeoffer-manager": "^2.11.4",
     "steam-user": "^5.0.9",
