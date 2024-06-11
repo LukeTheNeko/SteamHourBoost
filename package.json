@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@types/steamcommunity": "^3.43.7",
-    "axios": "^1.6.8",
+    "axios": "^1.7.1",
     "fs": "^0.0.1-security",
     "steam-totp": "^2.1.2",
     "steam-tradeoffer-manager": "^2.11.4",
