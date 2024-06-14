@@ -1,23 +1,23 @@
 {
   "name": "steamhourboost",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "Steam hour boost",
+  "author": "LukeTheNeko",
   "main": "dist/index.js",
+  "license": "MIT",
   "scripts": {
-    "start": "node .",
+    "start": "node dist/index.js",
     "dev": "ts-node -r tsconfig-paths/register --transpiler sucrase/ts-node-plugin src/index.ts",
     "build": "tsc && tscpaths -p tsconfig.json -s ./src -o ./dist"
   },
   "keywords": [
     "steam",
     "hour",
-    "boost"
+    "boost",
+    "steamhourboost"
   ],
-  "author": "LukeTheNeko",
-  "license": "MIT",
   "devDependencies": {
     "@types/steam-totp": "^2.1.2",
-    "@types/steam-tradeoffer-manager": "^2.11.0",
     "@types/steam-user": "^5.0.0",
     "sucrase": "^3.35.0",
     "ts-node": "^10.9.2",
@@ -28,12 +28,10 @@
   },
   "dependencies": {
     "@types/steamcommunity": "^3.43.7",
-    "axios": "^1.6.8",
+    "axios": "^1.7.2",
     "fs": "^0.0.1-security",
     "steam-totp": "^2.1.2",
-    "steam-tradeoffer-manager": "^2.11.4",
-    "steam-user": "^5.0.9",
-    "steamcommunity": "^3.48.3",
-    "tslib": "^2.6.2"
+    "steam-user": "^5.0.10",
+    "tslib": "^2.6.3"
   }
 }

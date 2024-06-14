@@ -3,7 +3,7 @@
 </div>
 
 <h2>Introduction</h2>
-<p>Game Hour Boost is a simple JavaScript program designed to simulate your games being open in your account. This allows you to farm hours in the games registered in the <code>config.json</code> file.</p>
+<p>Game Hour Boost is a simple JavaScript program designed to simulate your games being open in your account. This allows you to boost hours in the games registered in the <code>config.json</code> file.</p>
 
 <h2>Features</h2>
 <ul>

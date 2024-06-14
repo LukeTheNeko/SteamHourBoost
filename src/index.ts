@@ -10,4 +10,4 @@ try {
   process.exit(1);
 }
 
-const steamUsers = config.accounts.map(login);
+config.accounts.map(login);
