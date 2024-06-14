@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./docs/imgs/SteamHourBoost.png" height="75">
+  <img src="./imgs/SteamHourBoost.png" height="75">
 </div>
 
 <h2>Introduction</h2>
