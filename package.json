@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@types/steamcommunity": "^3.43.7",
-    "axios": "^1.7.2",
+    "axios": "^1.7.4",
     "fs": "^0.0.1-security",
     "steam-totp": "^2.1.2",
     "steam-user": "^5.0.10",
