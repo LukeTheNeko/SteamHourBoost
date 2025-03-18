@@ -1,6 +1,6 @@
 {
   "name": "steam-hour-boost",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "description": "Increase the hours played in your Steam games.",
   "author": "LukeTheNeko",
   "main": "dist/index.js",
@@ -18,20 +18,20 @@
   ],
   "devDependencies": {
     "@types/steam-totp": "^2.1.2",
-    "@types/steam-user": "^5.0.0",
+    "@types/steam-user": "^5.0.4",
     "sucrase": "^3.35.0",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "tsconfig-paths": "^4.2.0",
     "tscpaths": "^0.0.9",
-    "typescript": "^5.4.5"
+    "typescript": "^5.8.2"
   },
   "dependencies": {
-    "@types/steamcommunity": "^3.43.7",
+    "@types/steamcommunity": "^3.43.8",
     "axios": "^1.8.3",
     "fs": "^0.0.1-security",
     "steam-totp": "^2.1.2",
-    "steam-user": "^5.0.10",
-    "tslib": "^2.6.3"
+    "steam-user": "^5.2.0",
+    "tslib": "^2.8.1"
   }
 }
