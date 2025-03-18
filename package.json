@@ -1,7 +1,7 @@
 {
-  "name": "steamhourboost",
-  "version": "2.2.6",
-  "description": "Steam hour boost",
+  "name": "steam-hour-boost",
+  "version": "2.2.7",
+  "description": "Increase the hours played in your Steam games.",
   "author": "LukeTheNeko",
   "main": "dist/index.js",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "steam",
     "hour",
     "boost",
-    "steamhourboost"
+    "steam-hour-boost"
   ],
   "devDependencies": {
     "@types/steam-totp": "^2.1.2",
