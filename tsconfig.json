@@ -17,18 +17,11 @@
     "importHelpers": true,
     "baseUrl": ".",
     "paths": {
-      "@/*":["./src/*"],
-      "@settings/*":["./src/settings/*"]
+      "@/*": ["./src/*"],
+      "@settings/*": ["./src/settings/*"]
     },
-    "typeRoots": [
-      "./node_modules/@types"
-    ]
+    "typeRoots": ["./node_modules/@types"]
   },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
