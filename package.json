@@ -27,7 +27,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@types/steamcommunity": "^3.43.7",
+    "@types/steamcommunity": "^3.43.8",
     "axios": "^1.8.3",
     "fs": "^0.0.1-security",
     "steam-totp": "^2.1.2",

@@ -263,10 +263,10 @@
     "@types/node" "*"
     "@types/steamid" "*"
 
-"@types/steamcommunity@^3.43.7":
-  version "3.43.7"
-  resolved "https://registry.npmjs.org/@types/steamcommunity/-/steamcommunity-3.43.7.tgz"
-  integrity sha512-yOK2OPXJRJwYcspo+cjgYWL5N2IkTRtNvN1Tn0aPY/6lVNhwGY2PDaNyNMGiqbaVeJhSg45zJVZxC1ausdVCSw==
+"@types/steamcommunity@^3.43.8":
+  version "3.43.8"
+  resolved "https://registry.yarnpkg.com/@types/steamcommunity/-/steamcommunity-3.43.8.tgz#bf7d121f20f5da81cc3122edad894f644089385a"
+  integrity sha512-q742mcnxjiT3t0TyjhoTEpzmy1JI8L/p7nvvPBwNdArgjgb/5n5aWgKK8RavKIizAJ7AgjyEEfJNBY2ax8kFNw==
   dependencies:
     "@types/node" "*"
     "@types/request" "*"
